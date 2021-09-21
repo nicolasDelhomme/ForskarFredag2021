@@ -122,7 +122,7 @@ server <- function(input, output) {
          contentType = 'image/jpeg',
          width = 800,
          height = 600,
-         alt = sprintf("The resulting color of the tree is %s.",col,"color"))
+         alt = sprintf("The resulting color of the tree is %s.",col))
   }, deleteFile = FALSE)
   
   # Navbar menu
